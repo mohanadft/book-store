@@ -1,13 +1,10 @@
-import {
-  IsString,
-  IsOptional,
-  IsNumberString,
-  IsDateString,
-} from 'class-validator';
+import { Type } from 'class-transformer';
+import { IsString, IsOptional, IsDateString, IsNumber } from 'class-validator';
 
 export class QueryDto {
-  @IsNumberString()
+  @IsNumber()
   @IsOptional()
+  @Type(() => Number)
   price: number;
 
   @IsOptional()

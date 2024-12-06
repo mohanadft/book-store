@@ -5,13 +5,13 @@ export class QueryDto {
   @IsNumber()
   @IsOptional()
   @Type(() => Number)
-  price: number;
+  price?: number;
 
   @IsOptional()
   @IsString()
-  category: string;
+  category?: string;
 
   @IsOptional()
   @IsDateString()
-  date: string;
+  date?: string;
 }

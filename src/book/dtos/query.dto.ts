@@ -1,7 +1,7 @@
 import { Type } from 'class-transformer';
 import { IsString, IsOptional, IsDateString, IsNumber } from 'class-validator';
 
-export class QueryDto {
+export default class QueryDto {
   @IsNumber()
   @IsOptional()
   @Type(() => Number)

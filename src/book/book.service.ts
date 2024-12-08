@@ -6,7 +6,7 @@ import * as books from '../assets/books.json';
 @Injectable()
 export class BookService {
   searchBooks(queryParameters: QueryDto): ApiResponse<BookDto> {
-    let res = structuredClone(books);
+    let res: BookDto[] = structuredClone(books);
 
     for (let [key, val] of Object.entries(queryParameters)) {
       if (key === 'date') {

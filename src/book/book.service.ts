@@ -5,43 +5,16 @@ import * as books from '../assets/books.json';
 
 @Injectable()
 export class BookService {
-  searchBooks({
-    id,
-    title,
-    author,
-    price,
-    category,
-    date,
-  }: QueryDto): ApiResponse<BookDto> {
-    let res = books.filter((book) => {
-      let matches = true;
+  searchBooks(queryParameters: QueryDto): ApiResponse<BookDto> {
+    let res = structuredClone(books);
 
-      if (id) {
-        matches = matches && book.id === id;
+    for (let [key, val] of Object.entries(queryParameters)) {
+      if (key === 'date') {
+        res = res.filter((book) => book.publication_date.startsWith(val));
+      } else {
+        res = res.filter((book) => book[key] === val);
       }
-
-      if (title) {
-        matches = matches && book.title === title;
-      }
-
-      if (author) {
-        matches = matches && book.author === author;
-      }
-
-      if (price) {
-        matches = matches && book.price === price;
-      }
-
-      if (category) {
-        matches = matches && book.category === category;
-      }
-
-      if (date) {
-        matches = matches && book.publication_date.startsWith(date);
-      }
-
-      return matches;
-    });
+    }
 
     return {
       data: res,

@@ -28,8 +28,11 @@ Now, You can visit `localhost:3000`
 
 Query Parameters:
 
-- `category` _(optional)_
-- `price` _(optional)_ Must be a number
-- `date` _(optional)_
+- `id` _(optional)_ Must be a `number`
+- `title` _(optional)_ Must be a `string`
+- `author` _(optional)_ Must be a `string`
+- `category` _(optional)_ Must be a `string`
+- `price` _(optional)_ Must be a `number`
+- `date` _(optional)_ Must be a `date format`
 
 Example: `/book/search?price=40&date=2009-04-01` OR `/book/search?category=Java&date=2009`

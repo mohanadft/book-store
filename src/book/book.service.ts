@@ -5,9 +5,28 @@ import * as books from '../assets/books.json';
 
 @Injectable()
 export class BookService {
-  searchBooks({ price, category, date }: QueryDto): ApiResponse<BookDto> {
+  searchBooks({
+    id,
+    title,
+    author,
+    price,
+    category,
+    date,
+  }: QueryDto): ApiResponse<BookDto> {
     let res = books.filter((book) => {
       let matches = true;
+
+      if (id) {
+        matches = matches && book.id === id;
+      }
+
+      if (title) {
+        matches = matches && book.title === title;
+      }
+
+      if (author) {
+        matches = matches && book.author === author;
+      }
 
       if (price) {
         matches = matches && book.price === price;

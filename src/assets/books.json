@@ -94,5 +94,189 @@
     "price": 42,
     "category": "Programming",
     "publication_date": "1994-10-21"
+  },
+  {
+    "id": 13,
+    "title": "Thinking in Java",
+    "author": "Bruce Eckel",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2006-02-10"
+  },
+  {
+    "id": 14,
+    "title": "Java Puzzlers: Traps, Pitfalls, and Corner Cases",
+    "author": "Joshua Bloch, Neal Gafter",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2005-06-01"
+  },
+  {
+    "id": 15,
+    "title": "Core Java",
+    "author": "Cay S. Horstmann and Gary Cornell",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2017-01-01"
+  },
+  {
+    "id": 16,
+    "title": "Java Programming for Kids: Learn Java Step By Step and Build Your Own Interactive Calculator for Fun!",
+    "author": "R. Chandler Thompson",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2011-10-31"
+  },
+  {
+    "id": 17,
+    "title": "Mastering Microservices with Java: Build Enterprise Microservices with Spring Boot 2. 0, Spring Cloud, and Angular, 3rd Edition",
+    "author": "Sourabh Sharma",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2019-02-26"
+  },
+  {
+    "id": 18,
+    "title": "Java For Dummies",
+    "author": "Barry A. Burd",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2006-12-11"
+  },
+  {
+    "id": 19,
+    "title": "Learn Microservices with Spring Boot: A Practical Approach to RESTful Services Using RabbitMQ, Eureka, Ribbon, Zuul and Cucumber",
+    "author": "Moisés Macero García",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2017-12-08"
+  },
+  {
+    "id": 20,
+    "title": "Elements of Programming Interviews in Java: The Insiders' Guide",
+    "author": "Adnan Aziz, Amit Prakash, and Tsung-Hsien Lee",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2015-10-06"
+  },
+  {
+    "id": 21,
+    "title": "Elements of Programming Interviews in Java: The Insiders' Guide",
+    "author": "Adnan Aziz, Amit Prakash, and Tsung-Hsien Lee",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2015-10-06"
+  },
+  {
+    "id": 22,
+    "title": "Java 8 in Action: Lambdas, Streams, and Functional-style Programming",
+    "author": "Alan Mycroft, Mario Fusco, and Raoul-Gabriel Urma",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2011-08-28"
+  },
+  {
+    "id": 23,
+    "title": "Java: The Complete Reference, Eleventh Edition",
+    "author": "Herbert Schildt",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2018-11-21"
+  },
+  {
+    "id": 24,
+    "title": "Test Driven: Practical TDD and Acceptance TDD for Java Developers",
+    "author": "Lasse Koskela",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2009-04-01"
+  },
+  {
+    "id": 25,
+    "title": "Competitive Programming in Java: The Most Comprehensive Book",
+    "author": "Antti Laaksonen",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2017-05-06"
+  },
+  {
+    "id": 26,
+    "title": "Fundamentals of Java Programming",
+    "author": "Mitsunori Ogihara",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2018-07-13"
+  },
+  {
+    "id": 27,
+    "title": "Learning Java",
+    "author": "Patrick Niemeyer, Jonathan Knudsen",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2002-05-10"
+  },
+  {
+    "id": 28,
+    "title": "Java Network Programming",
+    "author": "Elliotte Rusty Harold",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2000-09-06"
+  },
+  {
+    "id": 29,
+    "title": "Learn Java in One Day and Learn It Well",
+    "author": "Jamie Chan",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2011-10-07"
+  },
+  {
+    "id": 30,
+    "title": "Think Java: How to Think Like a Computer Scientist",
+    "author": "Allen B. Downey, Chris Mayfield",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2004-05-10"
+  },
+  {
+    "id": 31,
+    "title": "Big Java: Early Objects",
+    "author": "Cay S. Horstmann",
+    "price": 35,
+    "category": "Java",
+    "publication_date": "2011-08-17"
+  },
+  {
+    "id": 32,
+    "title": "Practical Java: Programming Language Guide",
+    "author": "Peter Haggar",
+    "price": 35,
+    "category": "Java",
+    "publication_date": "2000-08-17"
+  },
+  {
+    "id": 33,
+    "title": "Java in Two Semesters: Featuring JavaFX",
+    "author": "Quentin Charatan, Aaron Kans",
+    "price": 35,
+    "category": "Java",
+    "publication_date": "2001-02-17"
+  },
+  {
+    "id": 34,
+    "title": "Hardcore Java",
+    "author": "Robert Simmons (Jr.)",
+    "price": 40,
+    "category": "Java",
+    "publication_date": "2009-04-01"
+  },
+  {
+    "id": 35,
+    "title": "Learn Java the Easy Way",
+    "author": "Bryson Payne",
+    "price": 35,
+    "category": "Java",
+    "publication_date": "2017-10-17"
   }
 ]

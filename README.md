@@ -44,3 +44,7 @@ Query Parameters:
 - `date` _(optional)_
 
 Example: `/book/search?price=40&date=2009-04-01` OR `/book/search?category=Java&date=2009`
+
+## Deployed Version
+
+You can visit and test the project online through this [link](https://book-store-c9du.onrender.com/book/search) 🎉
